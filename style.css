@@ -1,0 +1,102 @@
+form {
+    overflow: visible;
+    
+}
+body{
+    background-color:white;
+    color:black;
+    height: 100%;
+    margin:30px;
+    padding:2px;
+}
+#divImg{
+    width: auto;
+    align-content: center;
+    padding-top:109px;
+
+
+}
+#div1{
+width:auto;
+float:right;
+}
+#div2{
+    width:45%;
+    box-sizing: border-box;
+    border:1px solid #dbd7d7;
+    height: 46px;
+    border-radius:50px; 
+    box-shadow:none;
+
+}
+#div2:hover{
+    -webkit-tap-highlight-color:transparent;
+    border:1px solid #b5b0b0;
+    box-shadow: 0 2px 6px 0 #f7f8fa;
+    outline:none;
+}
+
+#div2a{
+    width:auto;
+    height:auto;
+    border:none;
+    padding:15px;
+    position: absolute;
+    margin-left:1.5px;  
+}
+
+#div2b{
+    width:auto;
+    position: static;
+}
+#div2ci{
+    position:relative;
+    right:20px;
+    bottom:30px;
+    color:#9e9595;      
+}
+#div2c{
+width:auto;
+border:none;
+position:relative;
+}
+input[type=text]{
+    width:81%;
+    height:39px;
+    outline:none;
+    border:none;
+    padding:2px;
+    font-size:16px; 
+    font-family: arial,sans-serif;       
+}
+#div3{
+    width: auto;
+    height: auto;
+    padding-top:15px;
+
+}
+
+input[type=submit]{
+    width:150px;
+    height:37px;
+    border:none;
+    background-color: #ededed;
+    border-radius:5px;
+    margin:5px;
+    padding:2px;   
+}
+input[type=submit]:hover{
+    border:1px solid #c4c2c2;
+}
+
+nav{
+    word-spacing:10px;
+}
+a{
+    color:black;
+    text-decoration:none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
